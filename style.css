@@ -1,0 +1,66 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo do site */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #28a745, #ffffff);
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    padding: 20px;
+    background-color: #006400;
+    color: white;
+    text-align: center;
+}
+
+.navbar h1 {
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Seções de conteúdo */
+.content-section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    text-align: left;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-campo {
+    max-width: 60%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Botões sociais */
+.social-buttons {
+    display: flex
+
